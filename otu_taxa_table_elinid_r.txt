@@ -1,0 +1,33 @@
+#import dataset & name it dat1
+dat1<-read.table("clipboard",
+	header=T,
+	sep=",", 
+	colClasses=c("character","numeric", "numeric", "numeric", "numeric", "numeric", "numeric",))
+
+#run a PCA using c1, c2-2, c3, p1, p2, p3, and store the results in an object named pca1
+pca1<-prcomp(dat1[ ,c("C1", "C2.2", "C3", "P1", "P2", "P3")], retx=T, center=T, scale.=T) 
+
+#display summary of pca1
+summary(pca1)
+
+#extract loadings from the PCA and stores them in an object named loadings 
+loadings<-pca1$rotation 
+
+#use column names from dat1 to identify rows in the loadings matrix in pca1
+rownames(loadings)<-colnames(dat1[ ,c("C1", "C2.2", "C3", "P1", "P2", "P3")])  
+
+#extract scores from pca1 and store them an object named scores 
+scores<-pca1$x 
+
+#display loadings
+loadings
+#display scores
+scores
+
+#creat biplot 1) with default scaling, 2) zooming in a bit, 3) zooming in more
+biplot(pca1, scale=0)
+biplot(pca1, scale=0, xlim=c(-20,10), ylim=c(-15,25))
+biplot(pca1, scale=0, xlim=c(-0.5,0.5), ylim=c(-0.5,0.5))
+
+
+

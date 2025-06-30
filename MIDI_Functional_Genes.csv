@@ -1,0 +1,26 @@
+Measurement (in cells/g),CAT-1,CAT-2,CAT-3,PK-1,PK-2,PK-3
+Total Bacteria (EBAC),9.31E+09,1.11E+10,7.42E+09,5.09E+09,5.48E+09,2.87E+10
+Total Archaea (ARC),2.95E+07,2.01E+07,3.48E+07,2.05E+07,3.38E+07,7.00E+07
+Sulfate Reducing Bacteria (APS),2.90E+05,2.66E+06,1.21E+05,1.67E+05,2.90E+05,5.72E+05
+Sulfate Reducing Archaea (SRA),0,0,0,0,0,0
+Iron Reducing Archaea (IRA),0,0,0,0,0,0
+Iron Reducing Bacteria - Other (IRB),0,0,2.69E+05,4.26E+04,2.47E+06,7.88E+04
+Iron Reducing Geobacter (IRG),3.34E+06,4.54E+05,3.34E+06,4.54E+05,2.44E+06,3.34E+06
+Iron Reducing Shewanella (IRS),0,0,0,0,0,0
+Iron Oxidizing Bacteria (FeOB),2.78E+03,5.20E+03,9.71E+03,3.42E+06,1.27E+05,9.71E+03
+Manganese Oxidizing Bacteria (MnOB),0,0,0,0,0,0
+Sulfur Oxidizing Bacteria (SOB),5.54E+06,2.88E+06,4.06E+05,4.19E+05,4.42E+05,5.54E+06
+Ammonia Oxidizing Bacteria (AMO),0,9.01E+04,2.60E+03,0,0,2.40E+04
+Ammonia Oxidizing Archaea (AOA),0,0,0,0,3.68E+05,0
+Nitrite Oxidizing Bacteria (NOR),1.32E+05,9.01E+03,1.76E+04,6.76E+04,3.84E+04,9.04E+04
+Anaerobic Ammonia Oxidizers (AMXNIRK),0,0,0,0,0,0
+Anaerobic Ammonia Oxidizers (AMXNIRS),0,0,0,0,0,7.02E+04
+Nitrogen Fixering Bacteria (NIF),1.40E+08,5.07E+07,7.81E+06,5.82E+06,1.66E+06,4.43E+06
+Denitrifying Bacteria (nirK),0,0,0,0,0,0
+Denitrifying Bacteria (nirS),0,0,0,0,0,1.40E+05
+Denitrifying Archaea (ANIRK),0,0,0,0,0,0
+Denitrifying Archaea (ANIRS),0,0,0,0,0,0
+Methanogens (MGN),0,2.39E+02,5.83E+01,1.78E+02,6.44E+02,0
+Fermenters (FER),0,0,0,0,0,0
+Acetogens (AGN),0,0,0,0,0,0
+Acetylene Degraders (AHY),0,0,0,0,0,0

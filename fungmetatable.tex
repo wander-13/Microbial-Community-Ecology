@@ -1,0 +1,45 @@
+\documentclass[border=1mm]{standalone}
+\usepackage{amssymb, amsmath}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage[utf8]{inputenc}
+\usepackage{makecell}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{xunicode}
+\usepackage{xcolor}
+\begin{document}
+\begin{table}
+\centering
+\caption{(\#tab:fungmetatable)Total Fungal sequence reads, correction factors from normalization,
+    sequences classified to Plantae at Kingdom level, sequences unclassified to Kingdom
+    level, and sequences classified to Genus level (Sequence numbers are totals before
+    normalization, all numbers were rounded to the thousandths place if possible)}
+\centering
+\resizebox{\ifdim\width>\linewidth\linewidth\else\width\fi}{!}{
+\begin{tabular}[t]{lccccc}
+\toprule
+\multicolumn{1}{c}{ } & \multicolumn{5}{c}{Fungi Meta Data} \\
+\cmidrule(l{3pt}r{3pt}){2-6}
+Site & Total Reads & Correction Factor & Plantae & Unclassified to Kingdom & Classified to Genus\\
+\midrule
+C1 & 28667 & 1.00000 & 510 & 0 & 23945\\
+C2 & 111933 & 3.90459 & 2077 & 0 & 86358\\
+C3 & 114164 & 3.98242 & 6866 & 20 & 45336\\
+P1 & 112282 & 3.91677 & 1747 & 4 & 81108\\
+P2 & 104421 & 3.64255 & 106 & 7 & 71911\\
+P3 & 113000 & 3.94181 & 87 & 24 & 84343\\
+\bottomrule
+\end{tabular}}
+\end{table}
+\end{document}
